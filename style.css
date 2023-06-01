@@ -29,7 +29,7 @@ body {
 
 .logo {
   width: 180px;
-  max-width: 300px;
+  max-width: 100%;
   height: auto;
   display: block;
   margin-bottom: 30px;
@@ -137,6 +137,7 @@ label {
   }
 
   .logo {
+    width: 180px;
     margin-bottom: 20px;
   }
 }
