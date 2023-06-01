@@ -9,7 +9,8 @@ body {
 }
 
 .form-register {
-  width: 600px;
+  width: 100%; /* Cambio */
+  max-width: 600px; /* Cambio */
   background: #24303c;
   padding: 30px;
   margin: auto;
@@ -132,13 +133,5 @@ label {
   .form-register {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 20px;
-    width: 100%;
-  }
 
-  .logo {
-    width: 180px;
-    margin-bottom: 20px;
-  }
-}
 
